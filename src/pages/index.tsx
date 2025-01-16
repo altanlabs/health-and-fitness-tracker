@@ -119,7 +119,7 @@ export default function IndexPage() {
           variants={staggerContainer}
           className="flex justify-center"
         >
-          <Progress value={75} className="w-64 h-64 rounded-full bg-green-200" />
+          <Progress value={75} />
         </motion.div>
       </motion.section>
 
