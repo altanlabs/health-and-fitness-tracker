@@ -119,7 +119,7 @@ export default function IndexPage() {
           variants={staggerContainer}
           className="flex justify-center"
         >
-          <Progress value={75} className="w-64 h-64" />
+          <Progress value={75} className="w-64 h-64 rounded-full bg-green-200" />
         </motion.div>
       </motion.section>
 
@@ -138,7 +138,7 @@ export default function IndexPage() {
             Check your weekly progress and plan your activities.
           </p>
           <div className="mt-6 flex justify-center">
-            <Calendar className="w-full max-w-md" />
+            <Calendar className="w-full max-w-md bg-white rounded-lg shadow-md" />
           </div>
         </motion.div>
       </motion.section>
